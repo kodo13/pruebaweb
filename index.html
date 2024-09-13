@@ -1,2 +1,79 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Fotografía</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <h1>Mi Portafolio de Fotografía</h1>
+      <p>Capturando momentos, una imagen a la vez.</p>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>Sobre Mí</h2>
+    <p>Soy un fotógrafo apasionado por capturar la belleza en cada momento. A lo largo de los años, he trabajado en diversos proyectos, 
+        desde fotografía de retrato hasta paisajes y eventos.</p>
+        <br></br>
+    <p>Soy fiel pensador que la belleza que observamos en el exterior es un reflejo de como somos internamente, de como pensamos, de como sentimos...
+        Somos seres únicos.
+    </br>
+    Solución a los problemas? Sinceramente... ¡LOVE IS THE ANSWER!
+
+    </p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portafolio</h2>
+    <div class="gallery">
+      <div class="photo">
+        <img src="img/grua.JPG" alt="Foto 1">
+      </div>
+      <div class="photo">
+        <img src="img/sol.JPG" alt="Foto 2">
+      </div>
+      <div class="photo">
+        <img src="img/cuerda.JPG" alt="Foto 3">
+      </div>
+      <div class="photo">
+        <img src="img/alto.JPG" alt="Foto 4">
+      </div>
+      <!-- Añadir más fotos según sea necesario -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <form action="#">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Mi Portafolio de Fotografía. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
